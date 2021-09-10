@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: #2d3436;
+}
+
+h1{
+    text-align: center;
+    color: #ffeaa7;
+    margin-top: 2vh;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 4vh;
+}
+
+.weather-display{
+    width: 30vw;
+    height: 65vh;
+    background-image: url("https://www.teahub.io/photos/full/2-28598_hd-plain.jpg");
+    background-size: cover;
+    margin: auto;
+    margin-top: 8vh;
+    box-shadow: 1px 0px 20px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cityName{
+    color: #0f054d;
+    font-family: 'Patua One', cursive;
+}
+
+.inner-div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.weather-stats{
+    font-weight: bold;
+    color: #04162f;
+}
+
+.inner-div-2{
+    width: 90%;
+    height: 35%;
+    background-color: #dcdde1a6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-image{
+    width: 30%;
+    height: 80%;
+}
+
+@media (max-width: 450px) {
+    .weather-display{
+        width: 80vw;
+        height: 60vh;
+        margin-top: 10vh;
+    }
+}
+
+
+
+
+
+
